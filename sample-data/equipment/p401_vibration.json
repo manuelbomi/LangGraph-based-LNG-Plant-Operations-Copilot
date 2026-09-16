@@ -1,0 +1,14 @@
+{
+  "tag_id": "P-401-VIB",
+  "name": "Feed Pump P-401 Vibration",
+  "unit": "mm/s RMS",
+  "equipment_id": "P-401",
+  "equipment_name": "LNG Feed Pump P-401",
+  "description": "Overall vibration velocity (RMS) measured on the drive-end bearing housing of LNG feed pump P-401.",
+  "normal_min": 1.5,
+  "normal_max": 4.0,
+  "critical_min": 0.5,
+  "critical_max": 5.5,
+  "warning_z": 2.5,
+  "warning_rate_per_hour": 0.1
+}

@@ -1,0 +1,14 @@
+{
+  "tag_id": "T-101-PRESS",
+  "name": "LNG Storage Tank T-101 Vapor Space Pressure",
+  "unit": "kPag",
+  "equipment_id": "T-101",
+  "equipment_name": "LNG Storage Tank T-101",
+  "description": "Vapor-space pressure transmitter on primary LNG storage tank T-101.",
+  "normal_min": 8.0,
+  "normal_max": 22.0,
+  "critical_min": 3.0,
+  "critical_max": 30.0,
+  "warning_z": 2.5,
+  "warning_rate_per_hour": 2.0
+}

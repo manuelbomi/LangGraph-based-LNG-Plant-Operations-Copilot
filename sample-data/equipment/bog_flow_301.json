@@ -1,0 +1,14 @@
+{
+  "tag_id": "BOG-FLOW-301",
+  "name": "Boil-Off Gas Recovery Line 301 Flow Rate",
+  "unit": "kg/h",
+  "equipment_id": "K-301",
+  "equipment_name": "Boil-Off Gas Recovery Compressor K-301",
+  "description": "Flow transmitter on boil-off gas recovery line 301, upstream of boil-off gas recovery compressor K-301.",
+  "normal_min": 430.0,
+  "normal_max": 610.0,
+  "critical_min": 350.0,
+  "critical_max": 680.0,
+  "warning_z": 2.5,
+  "warning_rate_per_hour": 20.0
+}

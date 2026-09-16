@@ -1,0 +1,16 @@
+TITLE: LNG Storage Tank T-101 Vapor Space Pressure Management
+EQUIPMENT_ID: T-101
+EQUIPMENT_NAME: LNG Storage Tank T-101
+DOC_TYPE: manual
+
+This guide covers vapor-space pressure readings on LNG storage tank T-101. Normal operating range is 8-22 kPag. Brief excursions above this range, typically lasting one to a few hours, are expected during scheduled boil-off gas venting operations, planned tank pressure-relief cycles, or immediately following a large LNG receipt that displaces vapor space. These transient, short-duration bumps that return to the normal range on their own, especially when they coincide with a known or scheduled venting/receipt operation, are typically benign and can be logged and dismissed after confirming the operational context.
+
+A pressure reading that continues climbing rather than returning to baseline within a few hours, or that approaches the 30 kPag critical threshold, is a different and more serious situation potentially indicating a relief system issue, vapor return line blockage, or an unplanned heat-load increase, and warrants immediate operator attention regardless of whether a scheduled operation was in progress.
+
+Recommended response for an above-normal pressure reading:
+1. Check the operations log for a scheduled venting operation, relief cycle, or recent LNG receipt coinciding with the pressure rise.
+2. If a coincident scheduled operation is confirmed and the pressure trend shows signs of returning toward baseline, this is very likely a benign, expected transient and can be logged and dismissed as such.
+3. If no coincident scheduled operation is found, or if the pressure continues rising rather than returning toward baseline, escalate immediately per the tank pressure high-pressure response procedure and do not wait for the critical threshold to be reached.
+4. Any pressure excursion, benign or not, should still be logged in the tank's pressure history for trending purposes.
+
+This is decision-support guidance only. A qualified operator or reliability engineer must confirm root cause and operational context from current field data before taking any action; nothing in this document authorizes automatic equipment control.

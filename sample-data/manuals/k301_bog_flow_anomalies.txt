@@ -1,0 +1,19 @@
+TITLE: Boil-Off Gas Recovery Line 301 Flow Rate Anomalies
+EQUIPMENT_ID: K-301
+EQUIPMENT_NAME: Boil-Off Gas Recovery Compressor K-301
+DOC_TYPE: manual
+
+This guide covers abnormal flow readings on boil-off gas (BOG) recovery line 301, upstream of BOG recovery compressor K-301. Normal flow at this point tracks a diurnal pattern in the 430-610 kg/h range, driven mainly by ambient temperature swings and storage tank pressure control; some day-to-day variation around this range is expected and is not itself a fault condition.
+
+A sustained flow reading above the normal range, particularly when correlated with an elevated storage tank vapor-space pressure reading, is most often simply a normal, expected consequence of increased boil-off generation -- for example during a scheduled tank pressure-relief vent, an ambient heat-load increase, or after a large LNG transfer operation that temporarily increases flash gas generation. This kind of transient, explainable flow increase is not a fault and should typically be logged and dismissed as benign once the coincident tank pressure event is confirmed, rather than treated as an equipment problem.
+
+A sustained flow reading below the normal range can indicate a partially blocked line, a failing flow transmitter, or (in combination with falling downstream suction pressure at K-301) reduced compressor capacity.
+
+A flow reading with an unusually low rate-of-change over an extended period, i.e. a flow trend that has effectively stopped varying with the normal diurnal cycle, should be treated as a possible instrumentation fault (stuck or frozen transmitter) rather than a genuine process condition, since real BOG flow at this location is never perfectly constant for more than a few hours at a time.
+
+Recommended response:
+1. When flow rises above the normal range, first check whether the storage tank vapor-space pressure trend shows a coincident, explainable rise or a scheduled venting event; if so, this is very likely a benign, expected condition and can typically be dismissed after logging.
+2. When flow falls below the normal range, check downstream suction pressure at K-301 and inspect for signs of a line restriction.
+3. When flow appears unusually flat relative to its normal diurnal pattern, treat this as a likely instrumentation fault rather than a process condition and schedule a transmitter check.
+
+This is decision-support guidance only. A qualified operator or reliability engineer must confirm root cause from current field data before taking any action; nothing in this document authorizes automatic equipment control.

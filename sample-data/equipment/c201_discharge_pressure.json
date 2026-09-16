@@ -1,0 +1,14 @@
+{
+  "tag_id": "C-201-DISCH-PRESS",
+  "name": "Compressor C-201 Discharge Pressure",
+  "unit": "psig",
+  "equipment_id": "C-201",
+  "equipment_name": "Process Gas Compressor C-201",
+  "description": "Discharge-side pressure transmitter on process gas compressor C-201, downstream of the final compression stage that feeds the cryogenic heat exchanger train.",
+  "normal_min": 850.0,
+  "normal_max": 930.0,
+  "critical_min": 780.0,
+  "critical_max": 960.0,
+  "warning_z": 2.5,
+  "warning_rate_per_hour": 0.35
+}

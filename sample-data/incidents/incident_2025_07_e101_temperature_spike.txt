@@ -1,0 +1,16 @@
+TITLE: Incident Report - Cryogenic Heat Exchanger E-101 Temperature Differential Spike (July 2025)
+EQUIPMENT_ID: E-101
+EQUIPMENT_NAME: Cryogenic Heat Exchanger E-101
+DOC_TYPE: incident
+
+Summary: In July 2025, the E-101 warm-end-minus-cold-end temperature differential spiked from a normal baseline of approximately 4.2 degC to a peak of 11.4 degC over roughly two hours, then decayed back toward baseline over the following ten hours without operator intervention.
+
+Timeline: The spike began during a period of routine operation with no scheduled maintenance activity. Upstream feed gas moisture analyzer readings, reviewed after the fact, showed a brief, correlated excursion beginning about thirty minutes before the temperature differential spike, consistent with a slug of higher-moisture feed gas reaching the exchanger.
+
+Root cause: The investigating engineer concluded the most likely cause was transient hydrate/ice formation on a subset of the exchanger's process-side passages, triggered by the moisture excursion, which temporarily reduced effective heat transfer area. This matches the second cause listed in the E-101 troubleshooting guide (rapid feed gas composition/moisture change). Because the hydrate formation was transient and self-clearing as normal operating temperatures resumed, the differential decayed back to baseline without any manual corrective action.
+
+Resolution: No corrective maintenance action was required for this specific event since the exchanger returned fully to baseline performance. The event was logged and trended per the exchanger's recurring-event policy. Feed gas moisture removal system performance was reviewed and no equipment fault was found; the moisture excursion was attributed to a transient upstream upset.
+
+Lessons learned: Because the troubleshooting guide flags exchangers with two or more such spikes within ninety days for a more thorough inspection, this event was logged specifically so it could be counted against that threshold. As of this report, no second qualifying spike had occurred on E-101 within the following ninety days.
+
+This incident report is provided for root-cause reference only; it does not constitute an automated diagnosis for any current reading, and a qualified engineer must independently confirm applicability to any present condition.

@@ -1,0 +1,14 @@
+{
+  "tag_id": "E-101-DELTA-T",
+  "name": "Cryogenic Heat Exchanger E-101 Temperature Differential",
+  "unit": "degC",
+  "equipment_id": "E-101",
+  "equipment_name": "Cryogenic Heat Exchanger E-101",
+  "description": "Warm-end minus cold-end temperature differential across the primary cryogenic heat exchanger E-101 in the liquefaction train.",
+  "normal_min": 2.5,
+  "normal_max": 6.0,
+  "critical_min": 1.0,
+  "critical_max": 9.0,
+  "warning_z": 2.5,
+  "warning_rate_per_hour": 0.4
+}

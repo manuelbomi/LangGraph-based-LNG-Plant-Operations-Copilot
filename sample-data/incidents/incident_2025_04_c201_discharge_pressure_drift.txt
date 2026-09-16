@@ -1,0 +1,16 @@
+TITLE: Incident Report - Process Gas Compressor C-201 Discharge Pressure Drift (April 2025)
+EQUIPMENT_ID: C-201
+EQUIPMENT_NAME: Process Gas Compressor C-201
+DOC_TYPE: incident
+
+Summary: Over approximately five days in April 2025, discharge pressure on process gas compressor C-201 drifted upward from a normal baseline near 900 psig to just over 955 psig, approaching the critical high threshold, before operations staff intervened.
+
+Timeline: The drift began gradually and was not initially flagged by shift operators as anything other than normal process variation, since the day-to-day change was small. By the third day, the rolling trend on the discharge pressure trend display made the drift unmistakable. Downstream flow at the cryogenic heat exchanger inlet had also decreased by roughly eight percent over the same period, which was the key clue.
+
+Root cause: Inspection during the following planned outage found significant fouling buildup at the discharge check valve and the inlet strainer basket on the downstream cryogenic heat exchanger train, consistent with the "progressive fouling downstream of the compressor" cause described in the C-201 response procedure. The fouling had built up gradually following an upstream filtration system upset roughly three weeks earlier that had gone unnoticed at the time.
+
+Resolution: Compressor throughput was reduced by fifteen percent as an interim measure to keep discharge pressure within the normal operating range while a maintenance window was scheduled. The check valve and strainer basket were cleaned during a short planned outage four days later, after which discharge pressure returned to its normal 900-910 psig baseline at full throughput.
+
+Lessons learned: The gradual nature of this drift meant it was not caught as early as it should have been by manual trend review alone. The recommendation from this incident was to treat any sustained upward trend on this tag as a developing condition worth investigating well before the high-high trip setpoint, and to specifically cross-check downstream flow trends as an early corroborating signal, exactly as described in the standard response procedure for this tag.
+
+This incident report is provided for root-cause reference only; it does not constitute an automated diagnosis for any current reading, and a qualified engineer must independently confirm applicability to any present condition.

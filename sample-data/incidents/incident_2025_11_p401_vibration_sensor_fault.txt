@@ -1,0 +1,16 @@
+TITLE: Incident Report - LNG Feed Pump P-401 Vibration Sensor Fault (November 2025)
+EQUIPMENT_ID: P-401
+EQUIPMENT_NAME: LNG Feed Pump P-401
+DOC_TYPE: incident
+
+Summary: In November 2025, the vibration monitoring tag on LNG feed pump P-401 was found to have been reporting a perfectly flat 2.9 mm/s RMS reading for approximately thirty-six hours, with essentially zero minute-to-minute variation, before a routine field walk-down identified the transmitter as failed.
+
+Timeline: The flat reading began without any alarm, since the frozen value of 2.9 mm/s RMS fell comfortably within the normal 1.5-4.0 mm/s operating range and no threshold was breached. The condition was only discovered when an operator performing a routine field round noted the local vibration readout disagreed with the control room display.
+
+Root cause: A loose signal wiring connection at the vibration transmitter's junction box was found to be the cause; the transmitter had latched onto its last valid reading rather than failing to a clearly abnormal value. This matches the guidance in the P-401 vibration monitoring guide that a stuck sensor can freeze at a value that looks entirely normal, and that the absence of expected variation, not the numeric value, is the real signature of this fault.
+
+Resolution: The wiring connection was repaired during the same field visit, and the transmitter immediately resumed reporting normally varying values. A borescope inspection of the pump performed as a precaution during the outage found no evidence of a developing mechanical fault, indicating the pump itself had likely been healthy throughout the thirty-six-hour period, but that this was fortunate rather than something that could have been confirmed at the time.
+
+Lessons learned: This incident directly motivated treating a flat/non-varying reading on this tag as at least as urgent as an out-of-range reading, since a stuck transmitter represents a complete loss of monitoring visibility on a piece of rotating equipment for as long as it persists, regardless of the frozen value's plausibility.
+
+This incident report is provided for root-cause reference only; it does not constitute an automated diagnosis for any current reading, and a qualified engineer must independently confirm applicability to any present condition.

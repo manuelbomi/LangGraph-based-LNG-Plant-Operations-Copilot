@@ -1,0 +1,21 @@
+TITLE: Compressor C-201 Discharge Pressure High: Possible Causes and Response Procedure
+EQUIPMENT_ID: C-201
+EQUIPMENT_NAME: Process Gas Compressor C-201
+DOC_TYPE: manual
+
+This procedure covers an elevated or trending-high discharge pressure reading on process gas compressor C-201, as measured by the discharge pressure transmitter located downstream of the final compression stage. Normal operating range for this point is 850-930 psig at typical feed gas throughput; sustained readings above 930 psig should be treated as a developing abnormal condition even if the absolute high-high trip setpoint has not yet been reached.
+
+A gradual upward drift in discharge pressure over a period of hours to days, rather than a sudden step change, is most commonly associated with progressive fouling or partial blockage downstream of the compressor -- typically at the anti-surge control valve, the discharge check valve, or the inlet strainers on the downstream cryogenic heat exchanger train. As the downstream flow path restricts, the compressor must work against increasing backpressure to maintain throughput, which manifests as a slow, steady rise in discharge pressure rather than an abrupt spike.
+
+A second common cause of gradually rising discharge pressure is a partially closing downstream block valve, whether due to an actuator fault, an obstruction, or an inadvertent manual operation. Unlike fouling, this cause typically correlates with a corresponding drop in downstream flow rate on adjacent flow instrumentation, so cross-checking downstream flow trends is a useful discriminator.
+
+A third, less common cause is an anti-surge valve controller tuning issue causing the valve to hunt toward a more closed position over time; this is typically accompanied by intermittent oscillation superimposed on the overall upward trend, rather than a smooth ramp.
+
+Recommended response for a slow drift toward the high alarm threshold:
+1. Confirm the trend is real and not an instrumentation issue by cross-checking against the redundant local pressure gauge at the compressor discharge nozzle.
+2. Review the downstream flow trend on the cryogenic heat exchanger inlet flow tag over the same time window; a corresponding flow decrease strongly suggests a restriction rather than a control issue.
+3. Inspect the anti-surge valve position feedback and controller output for signs of hunting or an unexpected closing bias.
+4. If discharge pressure continues trending upward and approaches the 960 psig critical threshold, reduce compressor throughput per the unit operating procedure and notify the shift supervisor; do not wait for the high-high trip to intervene manually.
+5. Schedule an inspection of the discharge check valve and downstream strainers at the next available maintenance window, even if the trend resolves on its own, since progressive fouling tends to recur.
+
+This is decision-support guidance only. The operator or reliability engineer reviewing an alarm on this tag must confirm root cause using current field data and plant-specific operating procedures before taking any corrective action; nothing in this document authorizes automatic equipment control.

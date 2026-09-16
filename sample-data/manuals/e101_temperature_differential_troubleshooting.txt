@@ -1,0 +1,19 @@
+TITLE: Cryogenic Heat Exchanger E-101 Temperature Differential Troubleshooting Guide
+EQUIPMENT_ID: E-101
+EQUIPMENT_NAME: Cryogenic Heat Exchanger E-101
+DOC_TYPE: manual
+
+This guide covers abnormal readings on the E-101 warm-end-minus-cold-end temperature differential tag. Under normal steady-state operation this differential sits in the 2.5-6.0 degC range. A sudden spike well above this range, developing over a small number of hours rather than gradually, is the signature most often associated with localized fouling or ice/hydrate formation on the process-side passages of the exchanger, which reduces effective heat transfer area and causes the temperature differential across the exchanger to widen abruptly.
+
+A sudden spike can also result from a rapid, unplanned change in feed gas composition (for example, a slug of heavier hydrocarbons or unexpected moisture content reaching the exchanger), which changes the effective heat duty distribution across the passages. This cause is typically accompanied by a corresponding, correlated disturbance on upstream feed gas composition or dew point instrumentation, if available, occurring at the same time as the temperature differential spike.
+
+A third possible cause is a partial blockage or maldistribution in one or more exchanger passages, which can produce a spike that partially but not fully recovers even after the immediate disturbance has passed, because the restriction itself does not resolve on its own.
+
+Recommended response for a sudden temperature differential spike:
+1. Verify the reading against the redundant temperature elements at both the warm and cold ends of the exchanger before treating it as a real process upset.
+2. Check upstream feed gas composition and moisture/dew point trends for a coincident disturbance.
+3. Monitor whether the differential begins decaying back toward baseline within a few hours; a spike that decays on its own is consistent with a transient fouling or hydrate event that may self-clear as conditions normalize, but should still be logged and trended, since recurrence points to a developing fouling problem.
+4. If the differential does not begin decaying within 4-6 hours, or exceeds the 9.0 degC critical threshold, reduce throughput through the exchanger per the unit operating procedure and consider a planned warm-up/deicing cycle at the next opportunity.
+5. Any exchanger that has experienced two or more such spikes within a 90-day period should be flagged for a more thorough inspection during the next planned turnaround, as this pattern often indicates a developing internal fouling trend rather than isolated transient events.
+
+This is decision-support guidance only. A qualified process or reliability engineer must confirm root cause from current field data before initiating any corrective action; nothing in this document authorizes automatic equipment control.

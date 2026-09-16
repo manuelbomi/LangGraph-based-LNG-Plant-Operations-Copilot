@@ -1,0 +1,19 @@
+TITLE: Feed Pump P-401 Vibration Monitoring Guide
+EQUIPMENT_ID: P-401
+EQUIPMENT_NAME: LNG Feed Pump P-401
+DOC_TYPE: manual
+
+This guide covers abnormal vibration readings on LNG feed pump P-401, measured as overall vibration velocity (RMS) at the drive-end bearing housing. Normal operation is 1.5-4.0 mm/s RMS, with some natural, moment-to-moment variation as flow conditions and pump loading change.
+
+A genuinely rising vibration trend, developing over days to weeks, is most commonly associated with bearing wear, developing shaft misalignment, or the onset of cavitation as net positive suction head margin degrades. This kind of trend typically shows continued natural minute-to-minute variation superimposed on the rising trend -- the reading keeps moving, it just moves around a steadily increasing baseline.
+
+A reading that instead becomes unusually flat -- showing little or no minute-to-minute variation where the tag would normally show continuous small fluctuations -- is a strong signature of a stuck, frozen, or failed vibration transmitter or data acquisition path, NOT a real mechanical condition. Rotating equipment vibration signals are never perfectly constant for an extended period during normal operation; a flat-lined reading, even at a value that falls within the normal numeric range, should be treated as a loss of monitoring visibility on this pump, not as evidence the pump is healthy.
+
+This distinction matters operationally: a stuck sensor at a "normal-looking" value is arguably more concerning than a sensor reporting a high but clearly still-varying value, because it means the plant has lost the ability to detect a genuine developing mechanical fault on this pump for as long as the fault persists. A stuck vibration transmitter on rotating equipment should be treated as at least as urgent as an out-of-range reading and addressed promptly.
+
+Recommended response:
+1. If vibration is trending upward with continued natural variation, review recent maintenance history for this pump, check suction pressure/NPSH margin trends, and schedule a bearing/alignment inspection if the trend continues.
+2. If the reading appears flat/frozen (no minute-to-minute variation) for more than a few hours, treat this as an instrumentation fault regardless of the numeric value shown, dispatch a technician to verify the transmitter and local readout in the field, and do not rely on this tag for pump health monitoring until it is confirmed working again.
+3. Do not dismiss a flat reading simply because the frozen value happens to fall within the normal operating range -- the absence of expected variation is itself the anomaly.
+
+This is decision-support guidance only. A qualified reliability engineer or operator must confirm root cause from current field data before taking any action; nothing in this document authorizes automatic equipment control.
