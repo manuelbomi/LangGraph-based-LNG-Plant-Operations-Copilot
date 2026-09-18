@@ -1,4 +1,4 @@
-# LangGraph Tutorial 06: LNG Plant Operations Copilot
+# LangGraph-based LNG Plant Operations Copilot
 
 A [LangGraph](https://langchain-ai.github.io/langgraph/)-powered decision-support
 copilot for plant operations and maintenance staff at a fictitious LNG
